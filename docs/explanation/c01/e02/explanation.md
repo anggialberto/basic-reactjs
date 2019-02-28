@@ -6,7 +6,7 @@ Seperti yang kita ketahui Node.js mempunyai dua package manager yang digunakan u
 yang dibutuhkan untuk membuat sesuatu aplikasi. Pada kasus ini kita membutuhkan pustaka reactjs. Cara instalasi pustaka
 reactjs sebagai berikut:
 
-### NPM
+### 1. NPM
 Bila kita ingin menginstall dalam area global bisa menggunakan perintah sebagai berikut:
 
 `npm install -g create-react-app`
@@ -15,7 +15,7 @@ Namun, bila ingin menginstallnya hanya pada environment pembuatan aplikasi terse
 
 `npm install create-react-app`
 
-### Yarn
+### 2. Yarn
 Pada package manager yarn tidak terlalu berbeda jauh dalam penginstallan area global, perintahnya sebagai berikut:
 
 `yarn global add create-react-app`
