@@ -1,4 +1,3 @@
-# Basic JavaScript Programming
 ![Header](./react-explanation.png)
 
 ## ReactJS
