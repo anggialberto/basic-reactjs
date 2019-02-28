@@ -8,16 +8,20 @@ reactjs sebagai berikut:
 
 ### NPM
 Bila kita ingin menginstall dalam area global bisa menggunakan perintah sebagai berikut:
+
 `npm install -g create-react-app`
 
 Namun, bila ingin menginstallnya hanya pada environment pembuatan aplikasi tersebut (local):
+
 `npm install create-react-app`
 
 ### Yarn
 Pada package manager yarn tidak terlalu berbeda jauh dalam penginstallan area global, perintahnya sebagai berikut:
+
 `yarn global add create-react-app`
 
 Lalu untuk local-nya sebagai berikut:
+
 `yarn add create-react-app`
 
 Seletah proses instalasi package create-react-app selesai, kita bisa langsung membuat aplikasi react pertama kita.
