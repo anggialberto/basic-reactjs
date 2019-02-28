@@ -1,4 +1,4 @@
-# ReactJS
+## Apa itu ReactJS?
 ![Header](./react-explanation.png)
 
 **ReactJS** adalah salah satu pustaka javascript yang terkenal selain **VueJS** yang bersifat opensource.
