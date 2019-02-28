@@ -1,5 +1,5 @@
 ## Apa itu ReactJS?
-![Header](./react-explanation.png)
+![Header](./reactjs-explanation.png)
 
 **ReactJS** adalah salah satu pustaka javascript yang terkenal selain **VueJS** yang bersifat opensource.
 Pustaka ini diperuntukkan membangun User Interface sebuah website yang dibuat oleh perusahaan besar yaitu Facebook.
