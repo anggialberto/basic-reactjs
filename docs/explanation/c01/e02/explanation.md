@@ -29,5 +29,5 @@ Dengan cara perintah `create-react-app [nama_aplikasi]` pada command line.
 
 Jika proses create-react-app tersebut sudah selesai. Masuk keadala folder nama aplikasi, kemudian jalankan
 `npmm start` atau `yarn start` untuk mencompile aplikasi. Jika proses sudah berjalan, maka pada terminal
-akan tampil tulisan "You can now view [nama_aplikasi] in the browser." dibawah tulisan tersebut terdapat
+akan tampil tulisan **"You can now view [nama_aplikasi] in the browser."** dibawah tulisan tersebut terdapat
 alamat local untuk mengakses halaman reactjs kita.
