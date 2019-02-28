@@ -27,7 +27,7 @@ Lalu untuk local-nya sebagai berikut:
 Seletah proses instalasi package create-react-app selesai, kita bisa langsung membuat aplikasi react pertama kita.
 Dengan cara perintah `create-react-app [nama_aplikasi]` pada command line.
 
-Jika proses create-react-app tersebut sudah selesai. Masuk keadala folder nama aplikasi, kemudian jalankan
-`npmm start` atau `yarn start` untuk mencompile aplikasi. Jika proses sudah berjalan, maka pada terminal
+Jika proses create-react-app tersebut sudah selesai. Masuk kedalam folder [nama_aplikasi], kemudian jalankan
+`npm start` atau `yarn start` untuk mencompile aplikasi. Jika proses sudah berjalan, maka pada terminal
 akan tampil tulisan **"You can now view [nama_aplikasi] in the browser."** dibawah tulisan tersebut terdapat
-alamat local untuk mengakses halaman reactjs kita.
+alamat local address untuk mengakses halaman reactjs kita.
