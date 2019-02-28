@@ -1,3 +1,6 @@
+# Basic JavaScript Programming
+![Header](./assets/react-explanation.png)
+
 ## ReactJS
 **ReactJS** adalah salah satu pustaka javascript yang terkenal selain **VueJS** yang bersifat opensource.
 Pustaka ini diperuntukkan membangun User Interface sebuah website yang dibuat oleh perusahaan besar yaitu Facebook.
