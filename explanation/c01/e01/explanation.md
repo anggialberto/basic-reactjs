@@ -1,5 +1,5 @@
 # Basic JavaScript Programming
-![Header](./assets/react-explanation.png)
+![Header](./react-explanation.png)
 
 ## ReactJS
 **ReactJS** adalah salah satu pustaka javascript yang terkenal selain **VueJS** yang bersifat opensource.
