@@ -1,28 +1,35 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Paragraph from './components/Paragraph'
+import Title from './components/Title'
 
 class App extends Component {
+  constructor() {
+    super()
+    this.state = {
+      text: "Hello World of Javascript",
+      textKedua: "Hello World ReactJS",
+    }
+  }
+
+  _handleClick = () => {
+    this.setState({
+      text: "State telah berubah untuk text pertama",
+      textKedua: "State telah berubah untuk text kedua"
+    })
+
+  }
+
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+      <div>
+        <Title></Title>
+        <Paragraph></Paragraph>
+        <p>{this.state.text}</p>
+        <p>{this.state.textKedua}</p>
+        <button onClick={this._handleClick}>Click Me!</button>
       </div>
-    );
+    )
   }
 }
 
-export default App;
+export default App
