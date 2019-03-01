@@ -1,28 +1,41 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react'
+
 
 class App extends Component {
+
+  constructor() {
+    super()
+    this.state = {
+      tinggiBadan: 0,
+      hasil: ""
+    }
+  }
+
+  _handleChange = (e) => {
+    this.setState({ [e.target.name]: Number(e.target.value) })
+  }
+
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+      <div>
+        <h1>Test Tinggi Badan</h1>
+        <input
+          onChange={this._handleChange}
+          name="tinggiBadan"
+          value={this.state.tinggiBadan}
+        />
+        {
+          this.state.tinggiBadan > 170 ?
+            (
+              <h1>Hasil : Boleh Naik</h1>
+            ) :
+            (
+              <h1>Hasil : Tidak Boleh Naik</h1>
+            )
+        }
       </div>
-    );
+    )
   }
 }
 
-export default App;
+export default App
