@@ -8,4 +8,4 @@ Repositori ini saya gunakan saat mempelajari Dasar ReactJS dengan cara menyelesa
 #### :open_book: Chapter 1: Pendahuluan
 - :globe_with_meridians: [[**Explanation 1**] Apa itu ReactJS](./docs/explanation/c01/e01/explanation.md)
 - :globe_with_meridians: [[**Explanation 2**] Instalasi ReactJS](./docs/explanation/c01/e02/explanation.md)
-- :anchor: [[**Exercise**] Membuat Proyek ReactJS Pertama](https://github.com/anggialberto/basic-reactjs/tree/first-project-reactjs)
+- :anchor: [[**Exercise 1**] Membuat Proyek ReactJS Pertama](https://github.com/anggialberto/basic-reactjs/tree/first-project-reactjs)
