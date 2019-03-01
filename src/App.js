@@ -7,12 +7,6 @@ class App extends Component {
   constructor() {
     super()
     this.state = {
-      tinggiBadan: 0,
-      siswa: [
-        { id: 1, nama: "Anggi", kelas: "3IA22" },
-        { id: 2, nama: "Alberto", kelas: "3AI22" },
-        { id: 3, nama: "Simarmata", kelas: "3IA22" }
-      ],
       planets: []
     }
   }
