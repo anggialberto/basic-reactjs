@@ -1,25 +1,31 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
 
 class App extends Component {
+  constructor() {
+    super();
+    this.state = {
+      num: "0"
+    };
+    this.operateNum = this.operateNum.bind(this);
+  }
+
+  operateNum(e) {
+    try {
+      const result = eval(e.target.value)
+      this.setState({
+        num: result
+      });
+    } catch (err) {
+      console.log(err)
+    }
+
+  }
+
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+      <div>
+        <label for='number'>Input Number : </label><input type='text' name='number' onChange={this.operateNum.bind(this)}></input>
+        <p id='result'>{this.state.num}</p>
       </div>
     );
   }
