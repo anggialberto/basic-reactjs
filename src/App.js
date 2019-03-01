@@ -1,28 +1,47 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
 
 class App extends Component {
+  constructor() {
+    super()
+    this.state = {
+      angkaPertama: 5,
+      angkaKedua: 4,
+      hasilPerhitungan: 0
+    }
+  }
+
+  _handleClick = () => {
+    const hasil = this.state.angkaPertama + this.state.angkaKedua
+    this.setState({ hasilPerhitungan: hasil })
+  }
+
+  _handleChange = (event) => {
+    console.log("Masuk")
+    this.setState({
+      [event.target.name]: Number(event.target.value)
+    })
+    console.log("Keluar")
+  }
+
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+      <div>
+        <input
+          onChange={this._handleChange}
+          name="angkaPertama"
+          value={this.state.angkaPertama}
+        />
+        <input
+          onChange={this._handleChange}
+          name="angkaKedua"
+          value={this.state.angkaKedua}
+        />
+        <button onClick={this._handleClick}>Hitung!</button>
+        <h1>Hasil: {this.state.hasilPerhitungan}</h1>
       </div>
-    );
+    )
   }
+
 }
 
-export default App;
+export default App
