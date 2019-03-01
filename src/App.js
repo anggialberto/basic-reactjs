@@ -16,7 +16,6 @@ class App extends Component {
       text: "State telah berubah untuk text pertama",
       textKedua: "State telah berubah untuk text kedua"
     })
-
   }
 
   render() {
